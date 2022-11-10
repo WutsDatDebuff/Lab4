@@ -46,6 +46,7 @@ def test_motor():
     dc_motor.set_motor_speed(100)
 
     sleep(2)
+    dc_motor.set_motor_speed(0)
 
 
 def main():
